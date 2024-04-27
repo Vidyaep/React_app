@@ -1,0 +1,62 @@
+/* Responsive styles for footer */
+.Foot {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  .container {
+    width: 90%;
+    margin: 50px auto;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .col-lg-4,
+  .col-md-6,
+  .col-sm-12 {
+    margin-bottom: 20px;
+  }
+  
+  h4 {
+    margin-bottom: 20px;
+  }
+  
+  .social-icons {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .social-icons li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .social-icons li:last-child {
+    margin-right: 0;
+  }
+  
+  .social-icons a {
+    color: #fff;
+    font-size: 24px;
+  }
+  
+  @media (max-width: 992px) {
+    .col-lg-4 {
+      flex: 0 0 50%;
+      max-width: 100%;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .col-md-6 {
+      flex: 0 0 50%;
+      max-width: 50%;
+    }
+  }
+  
